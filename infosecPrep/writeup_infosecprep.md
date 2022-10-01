@@ -8,7 +8,7 @@ This <a href="https://www.vulnhub.com/entry/infosec-prep-oscp,508/">box</a> is m
 
 ### Key Processes
 The machine is hosting a wordpress website<br>
-<img src="page.png"><br>
+<img src="assets/page.png"><br>
 and has 3 open ports :
 <img src="assets/ports.png">
 
