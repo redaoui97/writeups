@@ -4,7 +4,7 @@
 
 This <a href="https://www.vulnhub.com/entry/infosec-prep-oscp,508/">box</a> is meant to be an introduction to pentesting, and is designed to get players familiar with privilege escalation on outdated linux systems.
 
-## Informations
+## Information
 
 ### Key Processes
 The machine is hosting a wordpress website<br>
