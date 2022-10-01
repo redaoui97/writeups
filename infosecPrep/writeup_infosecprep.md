@@ -7,8 +7,8 @@ This <a href="https://www.vulnhub.com/entry/infosec-prep-oscp,508/">box</a> is m
 ## Informations
 
 ### Key Processes
-The machine is hosting a wordpress website
-<img src="page.png">
+The machine is hosting a wordpress website<br>
+<img src="page.png"><br>
 and has 3 open ports :
 <img src="assets/ports.png">
 
@@ -41,7 +41,7 @@ After finding the private key it was time to access the machine using the userna
 ```
 ssh -i private.txt oscp@192.168.84.11
 ```
-And we're finally in 
+<br> And we're finally in!
 <img src="assets/machine.png"><br>
 It was time then to run <a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">LinPEAS</a> and check for any vulnabilities that could give us root access to the machine.
 ```
