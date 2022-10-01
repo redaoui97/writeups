@@ -41,7 +41,7 @@ After finding the private key it was time to access the machine using the userna
 ```
 ssh -i private.txt oscp@192.168.84.11
 ```
-<br> And we're finally in!
+<br> And we're finally in!<br>
 <img src="assets/machine.png"><br>
 It was time then to run <a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">LinPEAS</a> and check for any vulnabilities that could give us root access to the machine.
 ```
