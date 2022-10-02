@@ -10,9 +10,7 @@ This box is designed to help beginner pentester to get familiar with some pentes
 
 ### Key Processes
 
-[Describe processes that are running to provide basic services on the box, such as webserver, ftp, etc. For any custom binaries, include source code (in a separate file unless very short). Also include if any of the services or programs are installed intentionally vulnerable versions.].
-
-This machine hosts an apache web server, and uses the sar2html tool.
+This machine hosts an apache web server, that has the sar2html tool.
 
 ## Writeup
 
