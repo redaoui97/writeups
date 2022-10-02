@@ -73,4 +73,5 @@ curl https://raw.githubusercontent.com/joeammond/CVE-2021-4034/main/CVE-2021-403
 ```
 
 And we finally have root access! 
-<img src="assets/root.png">
+
+<img src="assets/root.png"><br>
