@@ -19,4 +19,5 @@ where the second condition always returns True and thus returns all the data on 
 ### Solution
 We can find all we need to know about SQL injections <a href="https://github.com/payloadbox/sql-injection-payload-list">here</a>. 
 For this challenge we'll go with the simplest sql injection payload ```' OR '1```
+<br>
 <img src="./imgs/sql.png">

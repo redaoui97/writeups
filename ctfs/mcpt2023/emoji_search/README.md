@@ -14,4 +14,5 @@ the data given in the html in order: "SEJTe3 dtM3ozXzE1X2EwX 3UzaV9wM2V1MXM5 XzF
 <br>
 At first sight it looked like a base64 encrypted message, and it was: "HBS{wm3z3_15_a0_u3i_p3eu1s9_1v_519uw}" but it was still encrypted. 
 After a while looking for encrypting algorithms that use a key, the Vigenère algorithm could give us the solution. 
+<br>
 <img src="./imgs/solution.png">

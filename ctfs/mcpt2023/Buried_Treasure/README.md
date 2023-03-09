@@ -1,6 +1,6 @@
-#Buried Treasure
+# Buried Treasure
 
-###Introduction
+### Introduction
 
 <img src="./imgs/page1.png">
 
